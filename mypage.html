@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Excellent Young-man｜マイページ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-4 mb-5">
+      <din class="col-8">
+        <h2 class="">List of Excellent Young-man</h2>
+      </din>
+      <div class="col-4">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="list.html">紹介者一覧</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">ご紹介一覧</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">ログアウト</a>
+          </li>
+      </div>
+    </div>
+
+    <div class="row container">
+      <div class="box1 col-6">
+        <h4><u>紹介者</u></h4>
+        <ul>
+          <li>営業部 営業一課 中山 優 xxxx@xxxx.jp</li>
+          <li> xxxxx xxxxxx xxxx</li>
+          <li> xxxxx xxxxxx xxxx</li>
+          <li> xxxxx xxxxxx xxxx</li>
+          <li> xxxxx xxxxxx xxxx</li>
+          <li> xxxxx xxxxxx xxxx</li>
+          <li> xxxxx xxxxxx xxxx</li>
+        </ul>
+      </div>
+      <div class="box2 col-6">
+        <h4><u>ご紹介</u></h4>
+        <ul>
+          <li><span class="text-danger">New</span> 丸々生命 松本さん <br>紹介者 営業部 営業一課 中山 優</li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="row mt-4 mb-5">
+      <div class="col-4">
+        <button type="button" class="btn btn-link" onclick="location.href='entry.html' ">+紹介者の追加</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+</body>
+
+</html>
